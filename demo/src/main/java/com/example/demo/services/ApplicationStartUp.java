@@ -14,10 +14,10 @@ public class ApplicationStartUp implements ApplicationListener<ApplicationReadyE
 
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
-        String[] beanNames = applicationContext.getBeanDefinitionNames();
+        /*String[] beanNames = applicationContext.getBeanDefinitionNames();
         System.out.println("Loading beans:");
         for (String beanName : beanNames) {
             System.out.println(beanName);
-        }
+        }*/
     }
 }

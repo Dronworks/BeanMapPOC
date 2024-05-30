@@ -13,9 +13,9 @@ public class controller {
 
     @PostMapping("/test")
     public void runTest() {
-        myComponent.executeAction("Alias1");
-        myComponent.executeAction("Alias2");
-        myComponent.executeAction("Alias3");
+        myComponent.executeAction("a");
+        myComponent.executeAction("an");
+        myComponent.executeAction("b");
         myComponent.executeAction("UNK");
     }
 
