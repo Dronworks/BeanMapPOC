@@ -4,8 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Main3 {
     public static void main(String[] args) {
-        String userJson = "{ \"timestamp\": \"2024-05-30T12:34:56Z\", \"data\": { \"eventType\": \"UserSignup\", \"retryAmount\": 3, \"userId\": \"12345\", \"userName\": \"john_doe\", \"userEmail\": \"john.doe@example.com\" } }";
-        String addressJson = "{ \"timestamp\": \"2024-05-30T12:34:56Z\", \"data\": { \"eventType\": \"AddressUpdate\", \"retryAmount\": 3, \"addressId\": \"67890\", \"street\": \"123 Main St\", \"city\": \"Anytown\", \"state\": \"CA\", \"zipCode\": \"12345\" } }";
+        String userJson = "{ \"timestamp\": \"2024-05-30T12:34:56Z\", \"data\": { \"EventType1\": \"UserSignup\", \"retryAmount\": 3, \"userId\": \"12345\", \"userName\": \"john_doe\", \"userEmail\": \"john.doe@example.com\" } }";
+        String addressJson = "{ \"timestamp\": \"2024-05-30T12:34:56Z\", \"data\": { \"EventType1\": \"AddressUpdate\", \"retryAmount\": 3, \"addressId\": \"67890\", \"street\": \"123 Main St\", \"city\": \"Anytown\", \"state\": \"CA\", \"zipCode\": \"12345\" } }";
 
         ObjectMapper objectMapper = new ObjectMapper();
 
